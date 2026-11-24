@@ -1,0 +1,8 @@
+/* 7. BONUS: smooth fade out for the 2nd paragraph */
+p {
+    transition: opacity 1s ease;
+}
+
+.fade-out {
+    opacity: 0;
+}
