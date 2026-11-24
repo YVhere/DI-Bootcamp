@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(#ff3b3b, #ff5c8a);
+    min-height: 100vh;
+}
+
+.app {
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    background: white;
+}
+
+form input {
+    flex: 1;
+    border: none;
+    padding: 10px;
+}
+
+form button {
+    border: none;
+    background: white;
+    color: #2a7de1;
+    cursor: pointer;
+}
+
+.listTasks {
+    background: white;
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+
+.task {
+    border-bottom: 1px solid #ccc;
+    padding: 8px 0;
+}
+
+.delete-btn {
+    background: #ff3b3b;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* done task: red and crossed out */
+.done label {
+    color: red;
+    text-decoration: line-through;
+}
