@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Form #2</title>
+</head>
+<body>
+    <form action="index.html" method="post">
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="comments">Comments</label><br>
+        <textarea id="comments" name="comments" rows="5" cols="30"></textarea><br><br>
+
+        <input type="submit" value="Send">
+    </form>
+
+    <!-- 3. Where will the sent data appear?
+         Answer: with the POST method the data does NOT appear in the URL.
+         It is sent inside the body of the request.
+         We can see it in DevTools -> Network tab -> click on the request (index.html)
+         -> Payload tab -> Form Data:
+         name: John
+         comments: Hello this is a comment -->
+</body>
+</html>

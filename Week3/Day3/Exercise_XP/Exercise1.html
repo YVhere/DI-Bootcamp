@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Form</title>
+</head>
+<body>
+    <form action="index.html" method="get">
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="comments">Comments</label><br>
+        <textarea id="comments" name="comments" rows="5" cols="30"></textarea><br><br>
+
+        <input type="submit" value="Send">
+    </form>
+</body>
+</html>
+    <!-- 3. Where will the sent data appear?
+         Answer: with the GET method the sent data appears in the URL (address bar),
+         after the "?" sign, as a query string:
+         index.html?name=John&comments=Hello+this+is+a+comment
+         name=John -> the name of the input and its value
+         & -> separates the inputs
+         + -> replaces the spaces -->
